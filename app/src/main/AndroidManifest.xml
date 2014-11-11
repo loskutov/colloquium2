@@ -16,6 +16,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="ru.ifmo.md.colloquium2.AddCandidateDialog"
+            android:label="@string/title_activity_add_candidate_dialog" >
+        </activity>
+        <activity
+            android:name="ru.ifmo.md.colloquium2.VoteResults"
+            android:label="@string/title_activity_vote_results" >
+        </activity>
     </application>
 
 </manifest>
